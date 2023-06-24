@@ -1,0 +1,68 @@
+.Detail{
+    font-size: 2rem;
+    margin: 10px;
+    padding: 10px;
+
+}
+#dropdown{
+    margin: 10px;
+    padding: 5px;
+    color: red;
+    background-color: rgb(218, 209, 209);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.btnshow{
+    background-color: #9e961f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.btnshow:hover {
+    background-color: #0056b3;
+
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f1f1f1;
+  }
+  
+  th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    max-width: 400px;
+    overflow: auto;
+    white-space: nowrap;
+    /* font-size: 2rem; */
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    max-width: 400px;
+    overflow: auto;
+    white-space: nowrap;
+    /* font-size: 1rem; */
+  }
+  
+  /* Optional styles for alternate row colors */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .loading{
+    font-size: 2rem;
+  }

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Prompt:wght@400;500&display=swap');
+*{
+    margin-bottom: 20px;
+}
+
+.Firestore{
+    font-family: 'Caprasimo', cursive;
+    color:blue;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+
+.topic1{
+    color:blue;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.topic2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.btnSignin{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnSignin:hover {
+    background-color: #0056b3;
+
+  }
+
+
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 25%;
+    margin-left: 0px;
+
+}
+.text-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+
+  }
+
+label {
+    margin-bottom: 20px; /* Adjust the margin-bottom value as needed */
+    margin-right: 0;
+  }
+  
+  .buttondiv{
+    display: flex;
+    margin-left: 25%;
+  }
+  .texterror{
+    color: red;
+    font-weight: bold;
+
+  }
+
+  .boxcheck{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 0;
+    width: 20px;
+
+  }

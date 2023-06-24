@@ -1,0 +1,23 @@
+.text_acc{
+    font-weight: bold;
+}
+
+
+.btnlogout{
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnlogout:hover {
+    background-color: #0056b3;
+
+  }
